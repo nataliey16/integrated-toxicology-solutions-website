@@ -1,0 +1,19 @@
+.website-app {
+  padding: 20px;
+  border: 1px solid;
+  border-color: #555555;
+  border-radius: 10px;
+}
+.web-wrapper {
+  margin: 30px auto;
+}
+
+.header-buttons {
+  column-width: 30rem;
+  font-size: 14px;
+  margin: 1px;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
