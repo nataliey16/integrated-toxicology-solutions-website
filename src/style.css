@@ -1,19 +1,39 @@
 .website-app {
-  padding: 20px;
+  padding: 30px 10px;
   border: 1px solid;
   border-color: #555555;
   border-radius: 10px;
 }
 .web-wrapper {
-  margin: 30px auto;
+  margin: 30px 0 auto;
 }
 
-.header-buttons {
+.header-links {
+  color: rgb(133, 71, 43);
   column-width: 30rem;
   font-size: 14px;
-  margin: 1px;
   padding-bottom: 13px;
   padding-top: 13px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+a {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+h1 {
+  color: rgb(133, 71, 43);
+  text-align: center;
+}
+
+.h1-wrapper {
+  background-color: bisque;
+  padding: 80px 10px;
+  border: 1px solid;
+  border-color: #555555;
+  border-radius: 10px;
 }
