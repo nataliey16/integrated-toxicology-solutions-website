@@ -20,10 +20,7 @@ img {
   border: 1px solid;
   border-color: white;
   border-radius: 6px;
-}
-.sub-header {
-  padding: 20px;
-  font-size: 20px;
+  width: 100%;
 }
 
 .website-app {
@@ -37,14 +34,26 @@ img {
   text-align: right;
 }
 
+row {
+  width: 100%;
+}
+
 .header-banner {
   background: white;
+  border-radius: 6px;
   position: fixed;
-  top: 30px;
+  width: 77%;
+  top: 20px;
   padding: 20px 0px;
-  width: 100%;
+  margin-top: 0px;
   display: flex;
-  text-align: right;
+  flex-direction: row-reverse;
+}
+.empty-header-banner {
+  background: white;
+  position: fixed;
+  width: 50%;
+  display: flex;
 }
 
 .header-links {
@@ -64,6 +73,10 @@ img {
   border-radius: 6px;
   padding: 200px 40px;
   display: block;
+}
+.sub-header {
+  padding: 20px;
+  font-size: 20px;
 }
 
 .sub-header-section {
