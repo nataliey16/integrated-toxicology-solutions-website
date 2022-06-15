@@ -28,6 +28,11 @@ img {
   width: 100%;
 }
 
+ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
 .header-background {
   width: 100%;
   padding: 40px;
@@ -37,13 +42,13 @@ img {
   border-radius: 6px;
 }
 .header-clear-banner {
-  background: white;
+  background: transparent;
   border-radius: 6px;
   position: fixed;
   padding: 28px 80px 28px 80px;
-  margin-top: 0px;
+  margin: 0;
   display: flex;
-  width: 110%;
+  width: 100%;
   flex-direction: row-reverse;
 }
 
