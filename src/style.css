@@ -1,11 +1,16 @@
 body {
   font-family: "Helvetica", Sans-serif;
   font-weight: lighter;
+  background-color: white;
 }
 a {
-  padding-left: 10px;
-  padding-right: 10px;
   text-decoration: none;
+  color: rgb(133, 71, 43);
+  font-size: 18px;
+  padding: 20px 20px;
+}
+a:hover {
+  color: #fdc57b;
 }
 
 h1 {
@@ -23,47 +28,32 @@ img {
   width: 100%;
 }
 
-.website-app {
-  padding: 60px 10px;
+.header-background {
+  width: 100%;
+  padding: 40px;
   margin: 0;
   border: 1px solid;
   border-color: white;
   border-radius: 6px;
 }
-.header-buttons {
-  text-align: right;
-}
-
-row {
-  width: 100%;
-}
-
-.header-banner {
+.header-clear-banner {
   background: white;
   border-radius: 6px;
   position: fixed;
-  width: 77%;
-  top: 20px;
-  padding: 20px 0px;
+  padding: 28px 80px 28px 80px;
   margin-top: 0px;
   display: flex;
+  width: 110%;
   flex-direction: row-reverse;
 }
-.empty-header-banner {
-  background: white;
-  position: fixed;
-  width: 50%;
-  display: flex;
-}
 
-.header-links {
+.company-icon {
   color: rgb(133, 71, 43);
   font-size: 18px;
-  padding: 13px 20px;
+  text-align: left;
 }
-
-.header-links:hover {
-  color: #fdc57b;
+.header-buttons {
+  text-align: right;
 }
 
 .h1-wrapper {
