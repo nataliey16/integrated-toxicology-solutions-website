@@ -10,7 +10,8 @@ a {
   padding: 20px 20px;
 }
 a:hover {
-  color: #fdc57b;
+  color: #c7b198;
+  opacity: 0.5;
 }
 
 h1 {
@@ -85,6 +86,16 @@ ul {
   text-align: left;
 }
 
-.team-section {
-  text-align: center;
+img.team-headshot {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.footer-section-wrapper {
+  background-color: #394a50;
+  border: 1px solid;
+  border-color: transparent;
+  padding: 200px 40px;
+  display: block;
+  color: white;
 }
