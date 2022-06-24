@@ -102,6 +102,10 @@ img.team-headshot {
   color: white;
 }
 
+strong.footer-office-title {
+  font-size: 20px;
+}
+
 #about,
 #team {
   width: 100%;
